@@ -1,0 +1,48 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Space Worm</title>
+        <!-- Link our styles from worm_game.css -->
+        <link rel="stylesheet" type="text/css" href="/worm_game.css"/>
+        <!-- space worm game favicon -->
+        <link rel="icon" href="/images/favicon-32x32.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <!-- links to js files -->
+        <script defer src="/game_board.js"></script>
+        <script defer src="/space_worm.js"></script>
+        <script defer src="/game.js"></script>
+    </head>
+    <body>
+        <h1>HUNGRY SPACE WORM <span style="font-size: 1.5em;">🐛</span> </h1>
+        <!-- #gameContainer is the main game board-->
+        <div id="gameBox"></div>
+        <!-- #scoreContainer contains the scores  -->
+        <div id="scoreContainer">
+        <div class="scoreBoard">FOOD: <span id="pointsEarned">🍓 🍰</span></div> 
+        <div class="popup" onclick="popWorm()" style="font-size: 2em;">👽 
+            <span class="popuptext" id="myPopup">MAY THE WORMS BE WITH YOU!</span>
+        </div>
+        <div class="scoreBoard">LIGHT YEARS: <span id="blocksTravelled">	🛸</span></div>
+        </div>
+        <div class="alienGreetings">CLICK ME!  
+            <div class= "credits">
+                image credit: Ivana Cajina & Alexander Andrews. Worm by: Sandytov
+            </div>
+        </div>
+       
+       
+        <!-- #onScreenControllers contains the navigation buttons for mobile screens -->
+        <div id="onScreenControllers">
+            <button id="leftButton">◀️</button>
+            <div>
+              <button id="upButton">🔼</button>
+              <button id="downButton">🔽</button>
+            </div>
+            <button id="rightButton">▶️</button>
+          </div>
+    </body>
+</html>
