@@ -1,5 +1,5 @@
 body {
-    background-image: url(/images/alexander-andrews-fsH1KjbdjE8-unsplash.jpg);
+    background-image: url(images/alexander-andrews-fsH1KjbdjE8-unsplash.jpg);
     background-repeat: cover;
     text-align: center;
     margin: 0;
@@ -21,7 +21,7 @@ h1 {
     width: 40vw;
     height: 40vw;
     margin: 0.7vw auto;
-    background-image: url(/images/space_background.jpg);
+    background-image: url(images/space_background.jpg);
     background-size: cover;
     border: solid 4px #fdf9fab7;
     border-radius: 10px;
