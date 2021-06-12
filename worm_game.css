@@ -167,9 +167,9 @@ h1 {
       height: 2vw;
     }
   
-    /* #scoreContainer {
+    #scoreContainer {
       width: 80vw;
-    } */
+    }
     .scoreBoard {
       font-size: 15px;
       padding: 5px;
@@ -190,6 +190,7 @@ h1 {
     #onScreenControllers > div {
       display: flex;
       flex-direction: column;
+      margin: auto;
     }
   
     #onScreenControllers button {
