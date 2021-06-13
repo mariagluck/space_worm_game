@@ -36,7 +36,7 @@
     // Let the starting position of the space worm be at the middle of game board
     let wormHeadPlaceNow = squareBoardPixelCount / 2;
 
-    let wormLength = 200; // Initial length of the space worm = 200
+    let wormLength = 300; // Initial length of the space worm = 200
 
     // Move space worm continuously by calling this function repeatedly:
     const moveWorm = () => {
