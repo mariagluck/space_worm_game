@@ -181,6 +181,7 @@ h1 {
   
     #onScreenControllers {
       width: 80vw;
+      margin-right: 10vw;
       margin: 5vw auto;
       display: flex;
       justify-content: space-evenly;
