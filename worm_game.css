@@ -178,7 +178,9 @@ h1 {
     .alienGreetings, .popup {
       display: none;
     }
-  
+    .controllersScoresContainer {
+      margin: auto;
+    }
     #onScreenControllers {
       width: 80vw;
       margin: auto;
