@@ -137,17 +137,17 @@
          //speed accelerates as space worm eats food. once eaten 50 speeds goes to 60. Initial speed is 100
         if (foodEaten >= 50 && foodEaten < 100) {
             clearInterval(moveWormInterval);
-            moveWormInterval = setInterval(moveWorm, speed - 40);
+            moveWormInterval = setInterval(moveWorm, speed - 20);
               }
 
         if (foodEaten >= 100 && foodEaten < 200) {
            clearInterval(moveWormInterval);
-           moveWormInterval = setInterval(moveWorm, speed - 80);
+           moveWormInterval = setInterval(moveWorm, speed - 40);
              }
 
         if (foodEaten >= 200) {
         clearInterval(moveWormInterval);
-        moveWormInterval = setInterval(moveWorm, speed - 99);
+        moveWormInterval = setInterval(moveWorm, speed - 60);
           }
         
     };
