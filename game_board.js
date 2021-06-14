@@ -55,3 +55,10 @@ function popWorm() {
   let popup = document.getElementById("myPopup");
   popup.classList.toggle("show");
 }
+
+// SOUND ON POP OVER WORM
+ let audio = document.getElementById('popOverSound'); 
+ function play(){     
+   audio.play() 
+}
+  

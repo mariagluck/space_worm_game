@@ -147,67 +147,70 @@ h1 {
   }
 
 
-
-@media only screen and (max-width: 768px) {
     /* MOBILE */
+@media only screen and (max-width: 768px) {w
+ h1 {
+    color: rgb(255, 255, 255);
+    font-size: 0.8em;
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 0;
+ }
 
-    h1 {
-      color: rgb(255, 255, 255);
-      font-size: 0.8em;
-      font-family: 'Press Start 2P', cursive;
-      margin-bottom: 0;
+  #gameBox {
+    width: 80vw;
+    height: 80vw;
   }
-    #gameBox {
-      width: 80vw;
-      height: 80vw;
-    }
-  
-    .gameBoard{
-      width: 2vw;
-      height: 2vw;
-    }
-  
-    #scoreContainer {
-      width: 80vw;
-    }
-    .scoreBoard {
-      font-size: 15px;
-      padding: 5px;
-      margin: 5px;
-    }
-    .alienGreetings, .popup {
-      display: none;
-    }
-    .controllersScoresContainer {
-      margin: auto;
-    }
-    #onScreenControllers {
-      width: 80vw;
-      margin: auto;
-      padding-right: 45px;
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-    }
-  
-    #onScreenControllers > div {
-      display: flex;
-      flex-direction: column;
-    }
-  
-    #onScreenControllers button {
-      background-color: transparent;
-      height: 20vw;
-      width: 20vw;
-      font-size: 10vw;
-      border: none;
-    }
-  
-    #onScreenControllers button:focus {
-      outline: none;
-    }
-  
-    #onScreenControllers button:active {
-      background-color: #f0e4e6b7;
-    }
+
+  .gameBoard{
+    width: 2vw;
+    height: 2vw;
   }
+
+  #scoreContainer {
+    width: 80vw;
+  }
+ 
+  .scoreBoard {
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+  }
+ 
+  .alienGreetings, .popup {
+    display: none;
+  }
+ 
+  .controllersScoresContainer {
+    margin: auto;
+  }
+ 
+  #onScreenControllers {
+    width: 80vw;
+    margin: auto;
+    padding-right: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #onScreenControllers > div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #onScreenControllers button {
+    background-color: transparent;
+    height: 20vw;
+    width: 20vw;
+    font-size: 10vw;
+    border: none;
+  }
+
+  #onScreenControllers button:focus {
+    outline: none;
+  }
+
+  #onScreenControllers button:active {
+    background-color: #f0e4e6b7;
+  }
+}
