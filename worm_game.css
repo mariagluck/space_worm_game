@@ -148,7 +148,7 @@ h1 {
 
 
     /* MOBILE */
-@media only screen and (max-width: 768px) {w
+@media only screen and (max-width: 768px) {
  h1 {
     color: rgb(255, 255, 255);
     font-size: 0.8em;
